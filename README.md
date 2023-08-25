@@ -23,7 +23,7 @@ Tombola.musicamaestro;
 // Edit the list of participants below and...
 // SPIN THE WHEEL...! 
 
-Tombola.ruleta("Lina", "Ivan", "Niklas", "Citlali", "Alicia", "Julia", "Luka", "Katja", "Blaž", "Roza sintič", "Lola", "Ruže");
+Tombola.ruleta("Lina", "Ivan", "Niklas", "Turbulente", "Alicia", "Todd", "Luka", "Katja", "Blaž", "Roza sintič", "Lola", "Ruže");
 
 // Watch the Post window. 
 // It takes a while, be patient.
