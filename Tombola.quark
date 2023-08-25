@@ -1,0 +1,9 @@
+(
+  name: "Tombola",
+  summary: "A wheel of fortune",
+  version: "0.0.1",
+  schelp: "Tombola",
+  dependencies: [],
+  license: "GPL",
+  copyright: "Roger Pibernat, 2023"
+)
