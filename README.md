@@ -12,14 +12,28 @@ Quarks.install("https://github.com/loopier/tombola");
 # Usage
 
 ```
-// boot the server
+// Boot the server
+
 s.boot;
 
-// start the music
+// Start the music
+
 Tombola.musicamaestro;
 
-// spin the wheel...! and watch the Post window. It takes a while, be patient
-// you may have to adjust the post window size for it to display correctly.
-// increasing the font makes it more dramatic
+// Edit the list of participants below and...
+// SPIN THE WHEEL...! 
+
 Tombola.ruleta("Lina", "Ivan", "Julia", "Citlali", "Luka", "Roza sintič", "Katja", "Blaž", "Lola", "Ruže");
+
+// Watch the Post window. 
+// It takes a while, be patient.
+// You may have to adjust the Post window size for it to display correctly.
+// Increasing the font makes it more dramatic
+
+// Bonus track:
+// You can break the tape, make it sound old and crappy, by live coding it.
+// The higher the value, the older the tape.
+
+Tombola.tape(0.1); // default value is 0.04
+Tombola.tape(0.7);
 ```
