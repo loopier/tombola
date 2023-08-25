@@ -31,7 +31,7 @@ Tombola {
 			var rate = \rate.kr(1);
 			var tapemin = \tapemin.kr(0.96);// / XLine(1,2,);
 			var tapemax = \tapemax.kr(1.04);
-			var buf = Buffer.read(Server.default, (path = path ? "/home/r/loopier/samples-collection/wheeloffortune.wav").postln);
+			var buf = Buffer.read(Server.default, (path = path ? "wheeloffortune.wav").postln);
 			// (Dust.ar(50) + PlayBuf.ar(2, b,rate:LFNoise2.ar(9).range(0.96,1.04), loop:1)) * (-12.dbamp)
 			(Dust.ar(50) + PlayBuf.ar(2, buf,rate:LFNoise2.ar(9).range(tapemin,tapemax) * rate, loop:1)) * (-12.dbamp)
 		}).play
