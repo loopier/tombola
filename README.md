@@ -5,7 +5,7 @@ A wheel of fortune for SuperCollider.
 # Installation
 
 ```
-Quarks.install("https://github.com/loopier/tombola");
+Quarks.install("https://codeberg.org/loopier/tombola");
 ```
 
 

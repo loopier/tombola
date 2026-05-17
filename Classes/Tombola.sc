@@ -32,7 +32,7 @@ Tombola {
 			var tape = \tape.kr(0.04);
 			var buf = Buffer.read(
 				Server.default,
-				(path = path ? Platform.userAppSupportDir++"/downloaded-quarks/tombola/sounds/wheeloffortune.wav").postln);
+				(path = path ? Platform.userAppSupportDir++"/downloaded-quarks/Tombola/sounds/wheeloffortune.wav").postln);
 			// (Dust.ar(50) + PlayBuf.ar(2, b,rate:LFNoise2.ar(9).range(0.96,1.04), loop:1)) * (-12.dbamp)
 			(Dust.ar(50) + PlayBuf.ar(2, buf,rate:LFNoise2.ar(9).range(1-tape,1+tape) * rate, loop:1)) * (-12.dbamp)
 		}).play
